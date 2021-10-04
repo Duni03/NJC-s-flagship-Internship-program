@@ -47,7 +47,7 @@ for x in myresult:
   print(x)
 
 
-#Querying data from Movies table fro a given actor name
+#Querying data from Movies table for a given actor name
 sql = "SELECT * FROM data WHERE actor ='DiCaprio'"
 mycursor.execute(sql)
 myresult = mycursor.fetchall()
